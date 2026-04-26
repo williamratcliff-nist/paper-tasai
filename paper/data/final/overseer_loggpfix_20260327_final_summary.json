@@ -1,0 +1,84 @@
+{
+  "checkpoint": "<TACC_WORK_ROOT>/llm_overseer_runs/OVERSEER_FULL90_LOGGPFIX_20260327/closed_loop_checkpoint.json",
+  "note": "after_loggp_active_90",
+  "n_measurements": 90,
+  "mode_counts": {
+    "loggp_grid": 31,
+    "loggp_active": 27,
+    "physics": 32
+  },
+  "llm_batch_counts": {
+    "-1": 31,
+    "0": 5,
+    "1": 5,
+    "2": 10,
+    "3": 5,
+    "4": 10,
+    "5": 5,
+    "6": 10,
+    "7": 2,
+    "8": 5,
+    "10": 2
+  },
+  "best_model": "M4: Full model",
+  "best_model_posterior": 1.0,
+  "model_table": [
+    {
+      "model": "M4: Full model",
+      "posterior": 1.0,
+      "aic": 70.14854712658922,
+      "chi2": 0.007672660139085089,
+      "J1": 1.2554198877864589,
+      "J2": 0.2052798423160117,
+      "D": 0.021071459146906182,
+      "background": 0.4854126436738681,
+      "J1_err": null,
+      "J2_err": null,
+      "D_err": null,
+      "background_err": null
+    },
+    {
+      "model": "M1: NN Heisenberg",
+      "posterior": 0.0,
+      "aic": 4000000018512.9263,
+      "chi2": 493827162.77912676,
+      "J1": 1.163378461741896,
+      "J2": 0.0,
+      "D": 0.0,
+      "background": 0.5,
+      "J1_err": null,
+      "J2_err": null,
+      "D_err": null,
+      "background_err": null
+    },
+    {
+      "model": "M2: NN + anisotropy",
+      "posterior": 0.0,
+      "aic": 7408.5335179972935,
+      "chi2": 0.9138930269132461,
+      "J1": 3.035247151714336,
+      "J2": 0.0,
+      "D": 0.31769199990487923,
+      "background": 0.5100612432683896,
+      "J1_err": null,
+      "J2_err": null,
+      "D_err": null,
+      "background_err": null
+    },
+    {
+      "model": "M3: J1-J2 no gap",
+      "posterior": 0.0,
+      "aic": 4000000007732.596,
+      "chi2": 493827161.4479748,
+      "J1": 1.2500051505080467,
+      "J2": 0.19999997253062377,
+      "D": 0.0,
+      "background": 0.5,
+      "J1_err": null,
+      "J2_err": null,
+      "D_err": null,
+      "background_err": null
+    }
+  ],
+  "use_bumps": false
+}

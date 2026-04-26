@@ -1,0 +1,12 @@
+{
+  "llm": {
+    "n_runs": 5,
+    "time_to_decisive_correct_mean": 8.0,
+    "time_to_decisive_correct_std": 0.0,
+    "recover_after_wrong_leader_rate": 0.0,
+    "wrong_leader_dwell_time_mean": 0.0,
+    "falsification_probe_fraction_mean": 0.8666666666666666,
+    "optic_region_hit_fraction_mean": 0.8666666666666666,
+    "silent_data_success_rate": 1.0
+  }
+}

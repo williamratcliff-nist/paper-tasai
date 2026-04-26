@@ -1,0 +1,1852 @@
+{
+  "results": [
+    {
+      "config": {
+        "true_J1": 5.3,
+        "true_J2": 0.6,
+        "true_D": 0.28,
+        "prior_J1": 4.2,
+        "prior_J2": 0.35,
+        "prior_D": 0.12,
+        "init_points": 3,
+        "init_mode": "prior_triplet",
+        "count_time": 10.0,
+        "use_motion": true
+      },
+      "median_tas_time_advantage_s": 371.94101113747695,
+      "median_tas_time_s": 205.13842341330422,
+      "median_best_other_time_s": 542.2042597589898,
+      "wins": 5,
+      "n_seeds": 5,
+      "seed_runs": [
+        {
+          "config": {
+            "true_J1": 5.3,
+            "true_J2": 0.6,
+            "true_D": 0.28,
+            "prior_J1": 4.2,
+            "prior_J2": 0.35,
+            "prior_D": 0.12,
+            "init_points": 3,
+            "init_mode": "prior_triplet",
+            "count_time": 10.0,
+            "use_motion": true
+          },
+          "seed": 0,
+          "policies": {
+            "grid": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 1.073904439724233,
+              "final_time_s": 352.3847918282933
+            },
+            "random": {
+              "converged_at": 17,
+              "converged_time_s": 624.5074377688438,
+              "final_rms": 0.04085966383732682,
+              "final_time_s": 645.3713966855826
+            },
+            "log_gp": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.1900821444545086,
+              "final_time_s": 812.6865537099005
+            },
+            "tas_ai": {
+              "converged_at": 10,
+              "converged_time_s": 205.90299213050938,
+              "final_rms": 0.03962399750988516,
+              "final_time_s": 332.81113468463127
+            }
+          },
+          "tas_time_advantage_s": 418.6044456383345
+        },
+        {
+          "config": {
+            "true_J1": 5.3,
+            "true_J2": 0.6,
+            "true_D": 0.28,
+            "prior_J1": 4.2,
+            "prior_J2": 0.35,
+            "prior_D": 0.12,
+            "init_points": 3,
+            "init_mode": "prior_triplet",
+            "count_time": 10.0,
+            "use_motion": true
+          },
+          "seed": 1,
+          "policies": {
+            "grid": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.6167550493812057,
+              "final_time_s": 352.791539038913
+            },
+            "random": {
+              "converged_at": 10,
+              "converged_time_s": 403.8624512896759,
+              "final_rms": 0.018193138543393,
+              "final_time_s": 796.3393586641843
+            },
+            "log_gp": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.17931707970266655,
+              "final_time_s": 804.4100608636192
+            },
+            "tas_ai": {
+              "converged_at": 14,
+              "converged_time_s": 270.7799470444578,
+              "final_rms": 0.05082578508687852,
+              "final_time_s": 337.5059131080774
+            }
+          },
+          "tas_time_advantage_s": 133.0825042452181
+        },
+        {
+          "config": {
+            "true_J1": 5.3,
+            "true_J2": 0.6,
+            "true_D": 0.28,
+            "prior_J1": 4.2,
+            "prior_J2": 0.35,
+            "prior_D": 0.12,
+            "init_points": 3,
+            "init_mode": "prior_triplet",
+            "count_time": 10.0,
+            "use_motion": true
+          },
+          "seed": 2,
+          "policies": {
+            "grid": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.5761195051443405,
+              "final_time_s": 352.5107740576786
+            },
+            "random": {
+              "converged_at": 17,
+              "converged_time_s": 542.2042597589898,
+              "final_rms": 0.01902790905042686,
+              "final_time_s": 586.9495184962623
+            },
+            "log_gp": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.15245671506183364,
+              "final_time_s": 688.9574469919776
+            },
+            "tas_ai": {
+              "converged_at": 8,
+              "converged_time_s": 170.26324862151284,
+              "final_rms": 0.004363048861811299,
+              "final_time_s": 331.57610455630635
+            }
+          },
+          "tas_time_advantage_s": 371.94101113747695
+        },
+        {
+          "config": {
+            "true_J1": 5.3,
+            "true_J2": 0.6,
+            "true_D": 0.28,
+            "prior_J1": 4.2,
+            "prior_J2": 0.35,
+            "prior_D": 0.12,
+            "init_points": 3,
+            "init_mode": "prior_triplet",
+            "count_time": 10.0,
+            "use_motion": true
+          },
+          "seed": 3,
+          "policies": {
+            "grid": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.3929088809557757,
+              "final_time_s": 353.02355247433496
+            },
+            "random": {
+              "converged_at": 13,
+              "converged_time_s": 543.8482076859597,
+              "final_rms": 0.006925515058357232,
+              "final_time_s": 767.3307691217212
+            },
+            "log_gp": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.9805355149679206,
+              "final_time_s": 574.6418995855199
+            },
+            "tas_ai": {
+              "converged_at": 8,
+              "converged_time_s": 171.36348079545763,
+              "final_rms": 0.032573255258097705,
+              "final_time_s": 332.8366248792805
+            }
+          },
+          "tas_time_advantage_s": 372.48472689050203
+        },
+        {
+          "config": {
+            "true_J1": 5.3,
+            "true_J2": 0.6,
+            "true_D": 0.28,
+            "prior_J1": 4.2,
+            "prior_J2": 0.35,
+            "prior_D": 0.12,
+            "init_points": 3,
+            "init_mode": "prior_triplet",
+            "count_time": 10.0,
+            "use_motion": true
+          },
+          "seed": 4,
+          "policies": {
+            "grid": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.6125810953887646,
+              "final_time_s": 352.6066480269715
+            },
+            "random": {
+              "converged_at": 8,
+              "converged_time_s": 252.3678763188609,
+              "final_rms": 0.031075551656941036,
+              "final_time_s": 665.9427839364778
+            },
+            "log_gp": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.45491491401076706,
+              "final_time_s": 792.1466410311417
+            },
+            "tas_ai": {
+              "converged_at": 10,
+              "converged_time_s": 205.13842341330422,
+              "final_rms": 0.018559068032827496,
+              "final_time_s": 336.1159504879546
+            }
+          },
+          "tas_time_advantage_s": 47.229452905556684
+        }
+      ]
+    },
+    {
+      "config": {
+        "true_J1": 5.3,
+        "true_J2": 0.6,
+        "true_D": 0.28,
+        "prior_J1": 4.2,
+        "prior_J2": 0.35,
+        "prior_D": 0.12,
+        "init_points": 3,
+        "init_mode": "prior_triplet",
+        "count_time": 20.0,
+        "use_motion": true
+      },
+      "median_tas_time_advantage_s": 202.5655593988539,
+      "median_tas_time_s": 253.19835479490487,
+      "median_best_other_time_s": 450.98262239660767,
+      "wins": 5,
+      "n_seeds": 5,
+      "seed_runs": [
+        {
+          "config": {
+            "true_J1": 5.3,
+            "true_J2": 0.6,
+            "true_D": 0.28,
+            "prior_J1": 4.2,
+            "prior_J2": 0.35,
+            "prior_D": 0.12,
+            "init_points": 3,
+            "init_mode": "prior_triplet",
+            "count_time": 20.0,
+            "use_motion": true
+          },
+          "seed": 0,
+          "policies": {
+            "grid": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.28581835870647215,
+              "final_time_s": 533.1052944419557
+            },
+            "random": {
+              "converged_at": 9,
+              "converged_time_s": 442.21759325866907,
+              "final_rms": 0.011484855896198755,
+              "final_time_s": 1029.1255196546808
+            },
+            "log_gp": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 1.0169786162503711,
+              "final_time_s": 961.5721092962632
+            },
+            "tas_ai": {
+              "converged_at": 8,
+              "converged_time_s": 253.19835479490487,
+              "final_rms": 0.0303840824846075,
+              "final_time_s": 518.6444306874821
+            }
+          },
+          "tas_time_advantage_s": 189.0192384637642
+        },
+        {
+          "config": {
+            "true_J1": 5.3,
+            "true_J2": 0.6,
+            "true_D": 0.28,
+            "prior_J1": 4.2,
+            "prior_J2": 0.35,
+            "prior_D": 0.12,
+            "init_points": 3,
+            "init_mode": "prior_triplet",
+            "count_time": 20.0,
+            "use_motion": true
+          },
+          "seed": 1,
+          "policies": {
+            "grid": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 1.0288965697930665,
+              "final_time_s": 532.5997733963123
+            },
+            "random": {
+              "converged_at": 11,
+              "converged_time_s": 436.3816964440497,
+              "final_rms": 0.02148228658311851,
+              "final_time_s": 822.5418414159384
+            },
+            "log_gp": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.31628776770945916,
+              "final_time_s": 777.2400637523563
+            },
+            "tas_ai": {
+              "converged_at": 12,
+              "converged_time_s": 359.4851360759071,
+              "final_rms": 0.021994958584541206,
+              "final_time_s": 518.7930347150958
+            }
+          },
+          "tas_time_advantage_s": 76.89656036814256
+        },
+        {
+          "config": {
+            "true_J1": 5.3,
+            "true_J2": 0.6,
+            "true_D": 0.28,
+            "prior_J1": 4.2,
+            "prior_J2": 0.35,
+            "prior_D": 0.12,
+            "init_points": 3,
+            "init_mode": "prior_triplet",
+            "count_time": 20.0,
+            "use_motion": true
+          },
+          "seed": 2,
+          "policies": {
+            "grid": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.8952995354926315,
+              "final_time_s": 532.6736473564227
+            },
+            "random": {
+              "converged_at": 8,
+              "converged_time_s": 450.98262239660767,
+              "final_rms": 0.005207444721814604,
+              "final_time_s": 924.2084612106273
+            },
+            "log_gp": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.959504560066023,
+              "final_time_s": 854.0144410003928
+            },
+            "tas_ai": {
+              "converged_at": 8,
+              "converged_time_s": 248.41706299775376,
+              "final_rms": 0.0031521293320828808,
+              "final_time_s": 507.54909491287924
+            }
+          },
+          "tas_time_advantage_s": 202.5655593988539
+        },
+        {
+          "config": {
+            "true_J1": 5.3,
+            "true_J2": 0.6,
+            "true_D": 0.28,
+            "prior_J1": 4.2,
+            "prior_J2": 0.35,
+            "prior_D": 0.12,
+            "init_points": 3,
+            "init_mode": "prior_triplet",
+            "count_time": 20.0,
+            "use_motion": true
+          },
+          "seed": 3,
+          "policies": {
+            "grid": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.25911553267837556,
+              "final_time_s": 532.5324136192348
+            },
+            "random": {
+              "converged_at": 10,
+              "converged_time_s": 542.6474468941807,
+              "final_rms": 0.0037652128113869177,
+              "final_time_s": 968.2764397051051
+            },
+            "log_gp": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.46403027521462636,
+              "final_time_s": 868.4010969455444
+            },
+            "tas_ai": {
+              "converged_at": 11,
+              "converged_time_s": 331.5657666805858,
+              "final_rms": 0.018092548129550183,
+              "final_time_s": 523.5011139881999
+            }
+          },
+          "tas_time_advantage_s": 211.0816802135949
+        },
+        {
+          "config": {
+            "true_J1": 5.3,
+            "true_J2": 0.6,
+            "true_D": 0.28,
+            "prior_J1": 4.2,
+            "prior_J2": 0.35,
+            "prior_D": 0.12,
+            "init_points": 3,
+            "init_mode": "prior_triplet",
+            "count_time": 20.0,
+            "use_motion": true
+          },
+          "seed": 4,
+          "policies": {
+            "grid": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.8998369693091613,
+              "final_time_s": 532.3546038617662
+            },
+            "random": {
+              "converged_at": 16,
+              "converged_time_s": 746.5968423646516,
+              "final_rms": 0.039707566983992776,
+              "final_time_s": 878.436977292728
+            },
+            "log_gp": {
+              "converged_at": 16,
+              "converged_time_s": 737.837000128573,
+              "final_rms": 0.03634156408370892,
+              "final_time_s": 799.9150576455914
+            },
+            "tas_ai": {
+              "converged_at": 7,
+              "converged_time_s": 226.97988030523913,
+              "final_rms": 0.00414074093812411,
+              "final_time_s": 518.361807303102
+            }
+          },
+          "tas_time_advantage_s": 510.85711982333385
+        }
+      ]
+    },
+    {
+      "config": {
+        "true_J1": 5.3,
+        "true_J2": 0.6,
+        "true_D": 0.28,
+        "prior_J1": 4.7,
+        "prior_J2": 0.15,
+        "prior_D": 0.05,
+        "init_points": 3,
+        "init_mode": "prior_triplet",
+        "count_time": 10.0,
+        "use_motion": true
+      },
+      "median_tas_time_advantage_s": 201.0978642823211,
+      "median_tas_time_s": 208.7181531133898,
+      "median_best_other_time_s": 505.20111561853184,
+      "wins": 4,
+      "n_seeds": 5,
+      "seed_runs": [
+        {
+          "config": {
+            "true_J1": 5.3,
+            "true_J2": 0.6,
+            "true_D": 0.28,
+            "prior_J1": 4.7,
+            "prior_J2": 0.15,
+            "prior_D": 0.05,
+            "init_points": 3,
+            "init_mode": "prior_triplet",
+            "count_time": 10.0,
+            "use_motion": true
+          },
+          "seed": 0,
+          "policies": {
+            "grid": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 1.0071374017525527,
+              "final_time_s": 357.32957712338214
+            },
+            "random": {
+              "converged_at": 9,
+              "converged_time_s": 405.16768328093474,
+              "final_rms": 0.0045229952775041144,
+              "final_time_s": 871.5452384844
+            },
+            "log_gp": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.39626995404173126,
+              "final_time_s": 745.2567025910913
+            },
+            "tas_ai": {
+              "converged_at": 10,
+              "converged_time_s": 204.06981899861364,
+              "final_rms": 0.014796842570977443,
+              "final_time_s": 326.6553390907053
+            }
+          },
+          "tas_time_advantage_s": 201.0978642823211
+        },
+        {
+          "config": {
+            "true_J1": 5.3,
+            "true_J2": 0.6,
+            "true_D": 0.28,
+            "prior_J1": 4.7,
+            "prior_J2": 0.15,
+            "prior_D": 0.05,
+            "init_points": 3,
+            "init_mode": "prior_triplet",
+            "count_time": 10.0,
+            "use_motion": true
+          },
+          "seed": 1,
+          "policies": {
+            "grid": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.6989855726827621,
+              "final_time_s": 357.3436883976019
+            },
+            "random": {
+              "converged_at": 9,
+              "converged_time_s": 505.20111561853184,
+              "final_rms": 0.008809121305690639,
+              "final_time_s": 1010.5558239430158
+            },
+            "log_gp": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.8801832577045663,
+              "final_time_s": 708.0359744956397
+            },
+            "tas_ai": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.07223408752001007,
+              "final_time_s": 334.7150383035241
+            }
+          },
+          "tas_time_advantage_s": -999847.513922685
+        },
+        {
+          "config": {
+            "true_J1": 5.3,
+            "true_J2": 0.6,
+            "true_D": 0.28,
+            "prior_J1": 4.7,
+            "prior_J2": 0.15,
+            "prior_D": 0.05,
+            "init_points": 3,
+            "init_mode": "prior_triplet",
+            "count_time": 10.0,
+            "use_motion": true
+          },
+          "seed": 2,
+          "policies": {
+            "grid": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.10651651589405348,
+              "final_time_s": 357.32851123176556
+            },
+            "random": {
+              "converged_at": 10,
+              "converged_time_s": 318.76514927921284,
+              "final_rms": 0.006295878421040341,
+              "final_time_s": 611.833283027239
+            },
+            "log_gp": {
+              "converged_at": 18,
+              "converged_time_s": 838.8970313699933,
+              "final_rms": 0.020383255043701975,
+              "final_time_s": 838.8970313699933
+            },
+            "tas_ai": {
+              "converged_at": 8,
+              "converged_time_s": 175.10974620507517,
+              "final_rms": 0.04322173790543447,
+              "final_time_s": 332.2117618706586
+            }
+          },
+          "tas_time_advantage_s": 143.65540307413767
+        },
+        {
+          "config": {
+            "true_J1": 5.3,
+            "true_J2": 0.6,
+            "true_D": 0.28,
+            "prior_J1": 4.7,
+            "prior_J2": 0.15,
+            "prior_D": 0.05,
+            "init_points": 3,
+            "init_mode": "prior_triplet",
+            "count_time": 10.0,
+            "use_motion": true
+          },
+          "seed": 3,
+          "policies": {
+            "grid": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.385739060539062,
+              "final_time_s": 357.29838318669454
+            },
+            "random": {
+              "converged_at": 14,
+              "converged_time_s": 636.1499153174939,
+              "final_rms": 0.012090184352589524,
+              "final_time_s": 854.7798179008416
+            },
+            "log_gp": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.8754107538461005,
+              "final_time_s": 630.3391287466238
+            },
+            "tas_ai": {
+              "converged_at": 14,
+              "converged_time_s": 285.8977068265773,
+              "final_rms": 0.051589486925074264,
+              "final_time_s": 352.2277972167409
+            }
+          },
+          "tas_time_advantage_s": 350.2522084909166
+        },
+        {
+          "config": {
+            "true_J1": 5.3,
+            "true_J2": 0.6,
+            "true_D": 0.28,
+            "prior_J1": 4.7,
+            "prior_J2": 0.15,
+            "prior_D": 0.05,
+            "init_points": 3,
+            "init_mode": "prior_triplet",
+            "count_time": 10.0,
+            "use_motion": true
+          },
+          "seed": 4,
+          "policies": {
+            "grid": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.43163350612329654,
+              "final_time_s": 357.74054801974034
+            },
+            "random": {
+              "converged_at": 16,
+              "converged_time_s": 669.1826058000088,
+              "final_rms": 0.011839126840765194,
+              "final_time_s": 782.691688216343
+            },
+            "log_gp": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.25911030361360854,
+              "final_time_s": 635.7224752283718
+            },
+            "tas_ai": {
+              "converged_at": 10,
+              "converged_time_s": 208.7181531133898,
+              "final_rms": 0.0366890728798644,
+              "final_time_s": 348.2772723617674
+            }
+          },
+          "tas_time_advantage_s": 460.464452686619
+        }
+      ]
+    },
+    {
+      "config": {
+        "true_J1": 5.3,
+        "true_J2": 0.6,
+        "true_D": 0.28,
+        "prior_J1": 4.7,
+        "prior_J2": 0.15,
+        "prior_D": 0.05,
+        "init_points": 3,
+        "init_mode": "prior_triplet",
+        "count_time": 20.0,
+        "use_motion": true
+      },
+      "median_tas_time_advantage_s": 195.95800347325923,
+      "median_tas_time_s": 435.0482230637323,
+      "median_best_other_time_s": 580.3427454164951,
+      "wins": 3,
+      "n_seeds": 5,
+      "seed_runs": [
+        {
+          "config": {
+            "true_J1": 5.3,
+            "true_J2": 0.6,
+            "true_D": 0.28,
+            "prior_J1": 4.7,
+            "prior_J2": 0.15,
+            "prior_D": 0.05,
+            "init_points": 3,
+            "init_mode": "prior_triplet",
+            "count_time": 20.0,
+            "use_motion": true
+          },
+          "seed": 0,
+          "policies": {
+            "grid": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.24356804003125526,
+              "final_time_s": 537.9220996246248
+            },
+            "random": {
+              "converged_at": 9,
+              "converged_time_s": 448.10937389189826,
+              "final_rms": 0.011439061179829816,
+              "final_time_s": 1035.283076198672
+            },
+            "log_gp": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.22053584327965117,
+              "final_time_s": 759.9598869845244
+            },
+            "tas_ai": {
+              "converged_at": 8,
+              "converged_time_s": 252.15137041863903,
+              "final_rms": 0.01327723771623581,
+              "final_time_s": 517.9771998599817
+            }
+          },
+          "tas_time_advantage_s": 195.95800347325923
+        },
+        {
+          "config": {
+            "true_J1": 5.3,
+            "true_J2": 0.6,
+            "true_D": 0.28,
+            "prior_J1": 4.7,
+            "prior_J2": 0.15,
+            "prior_D": 0.05,
+            "init_points": 3,
+            "init_mode": "prior_triplet",
+            "count_time": 20.0,
+            "use_motion": true
+          },
+          "seed": 1,
+          "policies": {
+            "grid": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 1.008276292235294,
+              "final_time_s": 537.821848007117
+            },
+            "random": {
+              "converged_at": 8,
+              "converged_time_s": 281.98483383656503,
+              "final_rms": 0.007719237428222085,
+              "final_time_s": 1031.3784820953863
+            },
+            "log_gp": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.11004322245271146,
+              "final_time_s": 703.593239994319
+            },
+            "tas_ai": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.09600607132104828,
+              "final_time_s": 532.1151756334073
+            }
+          },
+          "tas_time_advantage_s": -1000268.1303417969
+        },
+        {
+          "config": {
+            "true_J1": 5.3,
+            "true_J2": 0.6,
+            "true_D": 0.28,
+            "prior_J1": 4.7,
+            "prior_J2": 0.15,
+            "prior_D": 0.05,
+            "init_points": 3,
+            "init_mode": "prior_triplet",
+            "count_time": 20.0,
+            "use_motion": true
+          },
+          "seed": 2,
+          "policies": {
+            "grid": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.6748832242025269,
+              "final_time_s": 537.2763185296075
+            },
+            "random": {
+              "converged_at": 12,
+              "converged_time_s": 580.3427454164951,
+              "final_rms": 0.01898986827075945,
+              "final_time_s": 893.2869182891685
+            },
+            "log_gp": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.6500651650162347,
+              "final_time_s": 967.8229056185082
+            },
+            "tas_ai": {
+              "converged_at": 9,
+              "converged_time_s": 282.5634387048921,
+              "final_rms": 0.04127350473787926,
+              "final_time_s": 530.4772036043762
+            }
+          },
+          "tas_time_advantage_s": 297.77930671160294
+        },
+        {
+          "config": {
+            "true_J1": 5.3,
+            "true_J2": 0.6,
+            "true_D": 0.28,
+            "prior_J1": 4.7,
+            "prior_J2": 0.15,
+            "prior_D": 0.05,
+            "init_points": 3,
+            "init_mode": "prior_triplet",
+            "count_time": 20.0,
+            "use_motion": true
+          },
+          "seed": 3,
+          "policies": {
+            "grid": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.19022983374307112,
+              "final_time_s": 537.5189342464122
+            },
+            "random": {
+              "converged_at": 15,
+              "converged_time_s": 755.811234845617,
+              "final_rms": 0.007125243102226829,
+              "final_time_s": 973.6075610207126
+            },
+            "log_gp": {
+              "converged_at": 14,
+              "converged_time_s": 808.0713748066036,
+              "final_rms": 0.1806473357033738,
+              "final_time_s": 983.0847740850539
+            },
+            "tas_ai": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.06464368234326222,
+              "final_time_s": 529.6979500109886
+            }
+          },
+          "tas_time_advantage_s": -999791.8867151653
+        },
+        {
+          "config": {
+            "true_J1": 5.3,
+            "true_J2": 0.6,
+            "true_D": 0.28,
+            "prior_J1": 4.7,
+            "prior_J2": 0.15,
+            "prior_D": 0.05,
+            "init_points": 3,
+            "init_mode": "prior_triplet",
+            "count_time": 20.0,
+            "use_motion": true
+          },
+          "seed": 4,
+          "policies": {
+            "grid": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.8080980067244619,
+              "final_time_s": 537.1799823842947
+            },
+            "random": {
+              "converged_at": 16,
+              "converged_time_s": 755.9746920615063,
+              "final_rms": 0.02376633040495742,
+              "final_time_s": 841.9458909893314
+            },
+            "log_gp": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.6283878897884964,
+              "final_time_s": 839.894100725464
+            },
+            "tas_ai": {
+              "converged_at": 15,
+              "converged_time_s": 435.0482230637323,
+              "final_rms": 0.05321993730454378,
+              "final_time_s": 517.4648897303989
+            }
+          },
+          "tas_time_advantage_s": 320.926468997774
+        }
+      ]
+    },
+    {
+      "config": {
+        "true_J1": 5.3,
+        "true_J2": 0.6,
+        "true_D": 0.28,
+        "prior_J1": 4.2,
+        "prior_J2": 0.35,
+        "prior_D": 0.12,
+        "init_points": 4,
+        "init_mode": "prior_triplet",
+        "count_time": 20.0,
+        "use_motion": true
+      },
+      "median_tas_time_advantage_s": 182.3721829584299,
+      "median_tas_time_s": 289.8364436894017,
+      "median_best_other_time_s": 448.03122634116164,
+      "wins": 4,
+      "n_seeds": 5,
+      "seed_runs": [
+        {
+          "config": {
+            "true_J1": 5.3,
+            "true_J2": 0.6,
+            "true_D": 0.28,
+            "prior_J1": 4.2,
+            "prior_J2": 0.35,
+            "prior_D": 0.12,
+            "init_points": 4,
+            "init_mode": "prior_triplet",
+            "count_time": 20.0,
+            "use_motion": true
+          },
+          "seed": 0,
+          "policies": {
+            "grid": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.5145471771265189,
+              "final_time_s": 562.6282940502826
+            },
+            "random": {
+              "converged_at": 9,
+              "converged_time_s": 448.03122634116164,
+              "final_rms": 0.0005680279718730852,
+              "final_time_s": 967.75436638263
+            },
+            "log_gp": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.3657797008112763,
+              "final_time_s": 791.9810055324436
+            },
+            "tas_ai": {
+              "converged_at": 8,
+              "converged_time_s": 265.65904338273174,
+              "final_rms": 0.036805381925309216,
+              "final_time_s": 546.3938521419486
+            }
+          },
+          "tas_time_advantage_s": 182.3721829584299
+        },
+        {
+          "config": {
+            "true_J1": 5.3,
+            "true_J2": 0.6,
+            "true_D": 0.28,
+            "prior_J1": 4.2,
+            "prior_J2": 0.35,
+            "prior_D": 0.12,
+            "init_points": 4,
+            "init_mode": "prior_triplet",
+            "count_time": 20.0,
+            "use_motion": true
+          },
+          "seed": 1,
+          "policies": {
+            "grid": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 1.0212456055624899,
+              "final_time_s": 564.8550633662953
+            },
+            "random": {
+              "converged_at": 7,
+              "converged_time_s": 274.1042155446312,
+              "final_rms": 0.00375596133642196,
+              "final_time_s": 860.6342090882334
+            },
+            "log_gp": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.5349087231875904,
+              "final_time_s": 797.0357737398367
+            },
+            "tas_ai": {
+              "converged_at": 11,
+              "converged_time_s": 356.23189021495995,
+              "final_rms": 0.041120815788353464,
+              "final_time_s": 547.5767795952662
+            }
+          },
+          "tas_time_advantage_s": -82.12767467032876
+        },
+        {
+          "config": {
+            "true_J1": 5.3,
+            "true_J2": 0.6,
+            "true_D": 0.28,
+            "prior_J1": 4.2,
+            "prior_J2": 0.35,
+            "prior_D": 0.12,
+            "init_points": 4,
+            "init_mode": "prior_triplet",
+            "count_time": 20.0,
+            "use_motion": true
+          },
+          "seed": 2,
+          "policies": {
+            "grid": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.45790496071862186,
+              "final_time_s": 562.5552303884934
+            },
+            "random": {
+              "converged_at": 8,
+              "converged_time_s": 318.6100357980649,
+              "final_rms": 0.005361942477813215,
+              "final_time_s": 809.2560662367601
+            },
+            "log_gp": {
+              "converged_at": 18,
+              "converged_time_s": 785.9927450644934,
+              "final_rms": 0.022084063969578984,
+              "final_time_s": 785.9927450644934
+            },
+            "tas_ai": {
+              "converged_at": 9,
+              "converged_time_s": 309.5392897413916,
+              "final_rms": 0.02487385628654959,
+              "final_time_s": 558.1930951135383
+            }
+          },
+          "tas_time_advantage_s": 9.070746056673329
+        },
+        {
+          "config": {
+            "true_J1": 5.3,
+            "true_J2": 0.6,
+            "true_D": 0.28,
+            "prior_J1": 4.2,
+            "prior_J2": 0.35,
+            "prior_D": 0.12,
+            "init_points": 4,
+            "init_mode": "prior_triplet",
+            "count_time": 20.0,
+            "use_motion": true
+          },
+          "seed": 3,
+          "policies": {
+            "grid": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.45201250446620966,
+              "final_time_s": 563.0996625658544
+            },
+            "random": {
+              "converged_at": 12,
+              "converged_time_s": 655.9955717276227,
+              "final_rms": 0.012970380355267068,
+              "final_time_s": 1082.3704072940043
+            },
+            "log_gp": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 1.058550598041678,
+              "final_time_s": 798.4212439152059
+            },
+            "tas_ai": {
+              "converged_at": 9,
+              "converged_time_s": 289.8364436894017,
+              "final_rms": 0.019915934232823826,
+              "final_time_s": 541.7121022915743
+            }
+          },
+          "tas_time_advantage_s": 366.15912803822107
+        },
+        {
+          "config": {
+            "true_J1": 5.3,
+            "true_J2": 0.6,
+            "true_D": 0.28,
+            "prior_J1": 4.2,
+            "prior_J2": 0.35,
+            "prior_D": 0.12,
+            "init_points": 4,
+            "init_mode": "prior_triplet",
+            "count_time": 20.0,
+            "use_motion": true
+          },
+          "seed": 4,
+          "policies": {
+            "grid": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.1438998278061728,
+              "final_time_s": 565.3726285377134
+            },
+            "random": {
+              "converged_at": 12,
+              "converged_time_s": 554.0247650562467,
+              "final_rms": 0.01197586498921358,
+              "final_time_s": 831.2330821388334
+            },
+            "log_gp": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.47683484844350515,
+              "final_time_s": 896.7136303123899
+            },
+            "tas_ai": {
+              "converged_at": 8,
+              "converged_time_s": 270.40452315106216,
+              "final_rms": 0.013485278556180978,
+              "final_time_s": 541.5899070350126
+            }
+          },
+          "tas_time_advantage_s": 283.6202419051845
+        }
+      ]
+    },
+    {
+      "config": {
+        "true_J1": 5.3,
+        "true_J2": 0.6,
+        "true_D": 0.28,
+        "prior_J1": 4.2,
+        "prior_J2": 0.35,
+        "prior_D": 0.12,
+        "init_points": 4,
+        "init_mode": "prior_triplet",
+        "count_time": 10.0,
+        "use_motion": true
+      },
+      "median_tas_time_advantage_s": 121.5603018464015,
+      "median_tas_time_s": 259.3561451983892,
+      "median_best_other_time_s": 374.66081570911683,
+      "wins": 4,
+      "n_seeds": 5,
+      "seed_runs": [
+        {
+          "config": {
+            "true_J1": 5.3,
+            "true_J2": 0.6,
+            "true_D": 0.28,
+            "prior_J1": 4.2,
+            "prior_J2": 0.35,
+            "prior_D": 0.12,
+            "init_points": 4,
+            "init_mode": "prior_triplet",
+            "count_time": 10.0,
+            "use_motion": true
+          },
+          "seed": 0,
+          "policies": {
+            "grid": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.7216835915058335,
+              "final_time_s": 382.78642451278654
+            },
+            "random": {
+              "converged_at": 13,
+              "converged_time_s": 447.59886937669825,
+              "final_rms": 0.017157109766473666,
+              "final_time_s": 747.0398435900701
+            },
+            "log_gp": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.3966940499214835,
+              "final_time_s": 606.7961263239112
+            },
+            "tas_ai": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.05388848728917555,
+              "final_time_s": 356.966811051232
+            }
+          },
+          "tas_time_advantage_s": -999927.3679416745
+        },
+        {
+          "config": {
+            "true_J1": 5.3,
+            "true_J2": 0.6,
+            "true_D": 0.28,
+            "prior_J1": 4.2,
+            "prior_J2": 0.35,
+            "prior_D": 0.12,
+            "init_points": 4,
+            "init_mode": "prior_triplet",
+            "count_time": 10.0,
+            "use_motion": true
+          },
+          "seed": 1,
+          "policies": {
+            "grid": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.20287752492787894,
+              "final_time_s": 385.8901863825192
+            },
+            "random": {
+              "converged_at": 7,
+              "converged_time_s": 282.13852637469876,
+              "final_rms": 0.009659743813315604,
+              "final_time_s": 746.2717395275558
+            },
+            "log_gp": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 1.1899093762464603,
+              "final_time_s": 644.6916927779343
+            },
+            "tas_ai": {
+              "converged_at": 13,
+              "converged_time_s": 269.5370190028026,
+              "final_rms": 0.023571289380656956,
+              "final_time_s": 356.37155706121985
+            }
+          },
+          "tas_time_advantage_s": 12.601507371896162
+        },
+        {
+          "config": {
+            "true_J1": 5.3,
+            "true_J2": 0.6,
+            "true_D": 0.28,
+            "prior_J1": 4.2,
+            "prior_J2": 0.35,
+            "prior_D": 0.12,
+            "init_points": 4,
+            "init_mode": "prior_triplet",
+            "count_time": 10.0,
+            "use_motion": true
+          },
+          "seed": 2,
+          "policies": {
+            "grid": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.3043742824862609,
+              "final_time_s": 382.6882717777452
+            },
+            "random": {
+              "converged_at": 10,
+              "converged_time_s": 380.9164470447907,
+              "final_rms": 0.008766599020767155,
+              "final_time_s": 666.9601198977479
+            },
+            "log_gp": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.1224115471553724,
+              "final_time_s": 843.1851980982624
+            },
+            "tas_ai": {
+              "converged_at": 13,
+              "converged_time_s": 259.3561451983892,
+              "final_rms": 0.043113474116669104,
+              "final_time_s": 359.6726890084849
+            }
+          },
+          "tas_time_advantage_s": 121.5603018464015
+        },
+        {
+          "config": {
+            "true_J1": 5.3,
+            "true_J2": 0.6,
+            "true_D": 0.28,
+            "prior_J1": 4.2,
+            "prior_J2": 0.35,
+            "prior_D": 0.12,
+            "init_points": 4,
+            "init_mode": "prior_triplet",
+            "count_time": 10.0,
+            "use_motion": true
+          },
+          "seed": 3,
+          "policies": {
+            "grid": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.3007927881842634,
+              "final_time_s": 382.71241435914203
+            },
+            "random": {
+              "converged_at": 10,
+              "converged_time_s": 346.4142252092038,
+              "final_rms": 0.007400312171154627,
+              "final_time_s": 775.726417979241
+            },
+            "log_gp": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.0933892358686643,
+              "final_time_s": 776.5146875176983
+            },
+            "tas_ai": {
+              "converged_at": 9,
+              "converged_time_s": 201.95052392570892,
+              "final_rms": 0.04679235981787972,
+              "final_time_s": 361.1375556002914
+            }
+          },
+          "tas_time_advantage_s": 144.46370128349486
+        },
+        {
+          "config": {
+            "true_J1": 5.3,
+            "true_J2": 0.6,
+            "true_D": 0.28,
+            "prior_J1": 4.2,
+            "prior_J2": 0.35,
+            "prior_D": 0.12,
+            "init_points": 4,
+            "init_mode": "prior_triplet",
+            "count_time": 10.0,
+            "use_motion": true
+          },
+          "seed": 4,
+          "policies": {
+            "grid": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.432907350505948,
+              "final_time_s": 383.8647404418598
+            },
+            "random": {
+              "converged_at": 13,
+              "converged_time_s": 374.66081570911683,
+              "final_rms": 0.029477295904271398,
+              "final_time_s": 625.3576950081688
+            },
+            "log_gp": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.6351961682888322,
+              "final_time_s": 516.6446479478416
+            },
+            "tas_ai": {
+              "converged_at": 9,
+              "converged_time_s": 209.6701699380935,
+              "final_rms": 0.01689343566463023,
+              "final_time_s": 357.31404824952745
+            }
+          },
+          "tas_time_advantage_s": 164.99064577102334
+        }
+      ]
+    },
+    {
+      "config": {
+        "true_J1": 5.3,
+        "true_J2": 0.6,
+        "true_D": 0.28,
+        "prior_J1": 4.7,
+        "prior_J2": 0.15,
+        "prior_D": 0.05,
+        "init_points": 4,
+        "init_mode": "prior_triplet",
+        "count_time": 20.0,
+        "use_motion": true
+      },
+      "median_tas_time_advantage_s": 68.57456221592088,
+      "median_tas_time_s": 272.603154745825,
+      "median_best_other_time_s": 375.9893717735275,
+      "wins": 5,
+      "n_seeds": 5,
+      "seed_runs": [
+        {
+          "config": {
+            "true_J1": 5.3,
+            "true_J2": 0.6,
+            "true_D": 0.28,
+            "prior_J1": 4.7,
+            "prior_J2": 0.15,
+            "prior_D": 0.05,
+            "init_points": 4,
+            "init_mode": "prior_triplet",
+            "count_time": 20.0,
+            "use_motion": true
+          },
+          "seed": 0,
+          "policies": {
+            "grid": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.25692794877316544,
+              "final_time_s": 575.7552863086037
+            },
+            "random": {
+              "converged_at": 9,
+              "converged_time_s": 375.9893717735275,
+              "final_rms": 0.009166804259603135,
+              "final_time_s": 781.0580189124091
+            },
+            "log_gp": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.2136772651052537,
+              "final_time_s": 849.6514369128683
+            },
+            "tas_ai": {
+              "converged_at": 9,
+              "converged_time_s": 307.41480955760665,
+              "final_rms": 0.03987591104267909,
+              "final_time_s": 559.799143831274
+            }
+          },
+          "tas_time_advantage_s": 68.57456221592088
+        },
+        {
+          "config": {
+            "true_J1": 5.3,
+            "true_J2": 0.6,
+            "true_D": 0.28,
+            "prior_J1": 4.7,
+            "prior_J2": 0.15,
+            "prior_D": 0.05,
+            "init_points": 4,
+            "init_mode": "prior_triplet",
+            "count_time": 20.0,
+            "use_motion": true
+          },
+          "seed": 1,
+          "policies": {
+            "grid": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.14937449409880119,
+              "final_time_s": 578.6000153111631
+            },
+            "random": {
+              "converged_at": 8,
+              "converged_time_s": 325.2883078484008,
+              "final_rms": 0.015155149159435681,
+              "final_time_s": 876.5363122226862
+            },
+            "log_gp": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.9146245275032538,
+              "final_time_s": 1134.4972276025717
+            },
+            "tas_ai": {
+              "converged_at": 8,
+              "converged_time_s": 272.603154745825,
+              "final_rms": 0.0051934668599799404,
+              "final_time_s": 550.6882484730615
+            }
+          },
+          "tas_time_advantage_s": 52.68515310257578
+        },
+        {
+          "config": {
+            "true_J1": 5.3,
+            "true_J2": 0.6,
+            "true_D": 0.28,
+            "prior_J1": 4.7,
+            "prior_J2": 0.15,
+            "prior_D": 0.05,
+            "init_points": 4,
+            "init_mode": "prior_triplet",
+            "count_time": 20.0,
+            "use_motion": true
+          },
+          "seed": 2,
+          "policies": {
+            "grid": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.7767258913593978,
+              "final_time_s": 575.8331686866071
+            },
+            "random": {
+              "converged_at": 8,
+              "converged_time_s": 299.45034536498673,
+              "final_rms": 0.0064704763059948755,
+              "final_time_s": 813.9551631391055
+            },
+            "log_gp": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.7477225837311885,
+              "final_time_s": 850.0046614348737
+            },
+            "tas_ai": {
+              "converged_at": 7,
+              "converged_time_s": 260.0155807191585,
+              "final_rms": 0.026511065233524655,
+              "final_time_s": 553.3545971791156
+            }
+          },
+          "tas_time_advantage_s": 39.43476464582824
+        },
+        {
+          "config": {
+            "true_J1": 5.3,
+            "true_J2": 0.6,
+            "true_D": 0.28,
+            "prior_J1": 4.7,
+            "prior_J2": 0.15,
+            "prior_D": 0.05,
+            "init_points": 4,
+            "init_mode": "prior_triplet",
+            "count_time": 20.0,
+            "use_motion": true
+          },
+          "seed": 3,
+          "policies": {
+            "grid": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.1555720676635998,
+              "final_time_s": 575.7713897601316
+            },
+            "random": {
+              "converged_at": 15,
+              "converged_time_s": 860.1755516530054,
+              "final_rms": 0.01395749502824004,
+              "final_time_s": 1100.3514584079307
+            },
+            "log_gp": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.7781543698751772,
+              "final_time_s": 1173.1905171074097
+            },
+            "tas_ai": {
+              "converged_at": 6,
+              "converged_time_s": 227.19019652815166,
+              "final_rms": 0.014695740871084804,
+              "final_time_s": 553.3934454579555
+            }
+          },
+          "tas_time_advantage_s": 632.9853551248538
+        },
+        {
+          "config": {
+            "true_J1": 5.3,
+            "true_J2": 0.6,
+            "true_D": 0.28,
+            "prior_J1": 4.7,
+            "prior_J2": 0.15,
+            "prior_D": 0.05,
+            "init_points": 4,
+            "init_mode": "prior_triplet",
+            "count_time": 20.0,
+            "use_motion": true
+          },
+          "seed": 4,
+          "policies": {
+            "grid": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.13607583362675257,
+              "final_time_s": 577.6844803595088
+            },
+            "random": {
+              "converged_at": 14,
+              "converged_time_s": 687.0791504307423,
+              "final_rms": 0.01895699372827121,
+              "final_time_s": 967.4441022366353
+            },
+            "log_gp": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.24321299741638752,
+              "final_time_s": 821.2221599697701
+            },
+            "tas_ai": {
+              "converged_at": 9,
+              "converged_time_s": 297.1763874777857,
+              "final_rms": 0.013322635130233138,
+              "final_time_s": 543.2241693652509
+            }
+          },
+          "tas_time_advantage_s": 389.9027629529566
+        }
+      ]
+    },
+    {
+      "config": {
+        "true_J1": 5.3,
+        "true_J2": 0.6,
+        "true_D": 0.28,
+        "prior_J1": 4.7,
+        "prior_J2": 0.15,
+        "prior_D": 0.05,
+        "init_points": 4,
+        "init_mode": "prior_triplet",
+        "count_time": 10.0,
+        "use_motion": true
+      },
+      "median_tas_time_advantage_s": -66.3202801601858,
+      "median_tas_time_s": 263.7068061612449,
+      "median_best_other_time_s": 322.56613308905014,
+      "wins": 2,
+      "n_seeds": 5,
+      "seed_runs": [
+        {
+          "config": {
+            "true_J1": 5.3,
+            "true_J2": 0.6,
+            "true_D": 0.28,
+            "prior_J1": 4.7,
+            "prior_J2": 0.15,
+            "prior_D": 0.05,
+            "init_points": 4,
+            "init_mode": "prior_triplet",
+            "count_time": 10.0,
+            "use_motion": true
+          },
+          "seed": 0,
+          "policies": {
+            "grid": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 1.0078297182574927,
+              "final_time_s": 396.16873989696626
+            },
+            "random": {
+              "converged_at": 11,
+              "converged_time_s": 423.8017169108965,
+              "final_rms": 0.020825492921608714,
+              "final_time_s": 857.3212979013808
+            },
+            "log_gp": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.8285451320167927,
+              "final_time_s": 660.5599546954143
+            },
+            "tas_ai": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.12203867617122321,
+              "final_time_s": 371.6915351153968
+            }
+          },
+          "tas_time_advantage_s": -999965.8898182045
+        },
+        {
+          "config": {
+            "true_J1": 5.3,
+            "true_J2": 0.6,
+            "true_D": 0.28,
+            "prior_J1": 4.7,
+            "prior_J2": 0.15,
+            "prior_D": 0.05,
+            "init_points": 4,
+            "init_mode": "prior_triplet",
+            "count_time": 10.0,
+            "use_motion": true
+          },
+          "seed": 1,
+          "policies": {
+            "grid": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 1.029091309281251,
+              "final_time_s": 398.60267299608194
+            },
+            "random": {
+              "converged_at": 10,
+              "converged_time_s": 357.425913728825,
+              "final_rms": 0.01056782670460578,
+              "final_time_s": 763.3208630593185
+            },
+            "log_gp": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 1.1164092303128,
+              "final_time_s": 676.9265780468558
+            },
+            "tas_ai": {
+              "converged_at": 12,
+              "converged_time_s": 263.7068061612449,
+              "final_rms": 0.01404523817147505,
+              "final_time_s": 356.93126745768774
+            }
+          },
+          "tas_time_advantage_s": 93.71910756758007
+        },
+        {
+          "config": {
+            "true_J1": 5.3,
+            "true_J2": 0.6,
+            "true_D": 0.28,
+            "prior_J1": 4.7,
+            "prior_J2": 0.15,
+            "prior_D": 0.05,
+            "init_points": 4,
+            "init_mode": "prior_triplet",
+            "count_time": 10.0,
+            "use_motion": true
+          },
+          "seed": 2,
+          "policies": {
+            "grid": {
+              "converged_at": 13,
+              "converged_time_s": 322.56613308905014,
+              "final_rms": 0.05365258430027404,
+              "final_time_s": 396.15068349973546
+            },
+            "random": {
+              "converged_at": 10,
+              "converged_time_s": 395.29841933293693,
+              "final_rms": 0.013089638014963477,
+              "final_time_s": 681.3851431177739
+            },
+            "log_gp": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.14589256281814866,
+              "final_time_s": 577.0125182844805
+            },
+            "tas_ai": {
+              "converged_at": 5,
+              "converged_time_s": 144.8051661439758,
+              "final_rms": 0.008265239165613652,
+              "final_time_s": 366.4532949281393
+            }
+          },
+          "tas_time_advantage_s": 177.76096694507433
+        },
+        {
+          "config": {
+            "true_J1": 5.3,
+            "true_J2": 0.6,
+            "true_D": 0.28,
+            "prior_J1": 4.7,
+            "prior_J2": 0.15,
+            "prior_D": 0.05,
+            "init_points": 4,
+            "init_mode": "prior_triplet",
+            "count_time": 10.0,
+            "use_motion": true
+          },
+          "seed": 3,
+          "policies": {
+            "grid": {
+              "converged_at": 12,
+              "converged_time_s": 307.29264129677733,
+              "final_rms": 0.029745231200241157,
+              "final_time_s": 396.06264126833213
+            },
+            "random": {
+              "converged_at": 11,
+              "converged_time_s": 491.89457165743977,
+              "final_rms": 0.01690028615822286,
+              "final_time_s": 837.2917510722172
+            },
+            "log_gp": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.7217011881580495,
+              "final_time_s": 827.3941664291854
+            },
+            "tas_ai": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.0641615673046449,
+              "final_time_s": 374.81784465494934
+            }
+          },
+          "tas_time_advantage_s": -1000085.5252033581
+        },
+        {
+          "config": {
+            "true_J1": 5.3,
+            "true_J2": 0.6,
+            "true_D": 0.28,
+            "prior_J1": 4.7,
+            "prior_J2": 0.15,
+            "prior_D": 0.05,
+            "init_points": 4,
+            "init_mode": "prior_triplet",
+            "count_time": 10.0,
+            "use_motion": true
+          },
+          "seed": 4,
+          "policies": {
+            "grid": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.16622913876098738,
+              "final_time_s": 397.06189884160403
+            },
+            "random": {
+              "converged_at": 7,
+              "converged_time_s": 181.3760327307711,
+              "final_rms": 0.03936132640822843,
+              "final_time_s": 635.1288868687379
+            },
+            "log_gp": {
+              "converged_at": null,
+              "converged_time_s": null,
+              "final_rms": 0.08562198715056957,
+              "final_time_s": 652.0883362899187
+            },
+            "tas_ai": {
+              "converged_at": 11,
+              "converged_time_s": 247.6963128909569,
+              "final_rms": 0.01507633845758179,
+              "final_time_s": 369.0029810999169
+            }
+          },
+          "tas_time_advantage_s": -66.3202801601858
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "run_id": "ghost5_20260415c_llm_seed003",
+  "mailbox_url": "http://tripleaxis.org/tasai_mailbox",
+  "token_env": "LLM_MAILBOX_TOKEN",
+  "mode": "overseer",
+  "policy": "llm",
+  "seed": 3,
+  "prepared_root": "run_logs/llm_prepared",
+  "usage_log_dir": "run_logs/llm_usage_manager",
+  "scenario": "ghost-optic"
+}
