@@ -105,13 +105,13 @@ code when warnings are present.
 
 This repo does not duplicate the full TAS-AI library source. The public code repo is:
 
-- [williamratcliff-nist/tasai](https://github.com/williamratcliff-nist/tasai)
+- [usnistgov/tasai](https://github.com/usnistgov/tasai)
 
 The public paper-bundle mirror is:
 
-- [williamratcliff-nist/paper-tasai](https://github.com/williamratcliff-nist/paper-tasai)
+- [usnistgov/paper-tasai](https://github.com/usnistgov/paper-tasai)
 
 The manuscript text points to those two public repositories directly:
 
-- `williamratcliff-nist/tasai` for the reusable library code
-- `williamratcliff-nist/paper-tasai` for manuscript sources, paper-facing scripts, archived data, and provenance artifacts
+- `usnistgov/tasai` for the reusable library code
+- `usnistgov/paper-tasai` for manuscript sources, paper-facing scripts, archived data, and provenance artifacts

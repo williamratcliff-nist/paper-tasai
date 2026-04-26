@@ -86,6 +86,6 @@ The manuscript can be rebuilt with Pandoc using:
 
 This repo is paper-facing. The reusable TAS-AI library code lives separately in:
 
-- [williamratcliff-nist/tasai](https://github.com/williamratcliff-nist/tasai)
+- [usnistgov/tasai](https://github.com/usnistgov/tasai)
 
 Reviewers interested in the underlying library implementation should consult that repo, while reviewers focused on manuscript provenance should be able to work entirely within this one.

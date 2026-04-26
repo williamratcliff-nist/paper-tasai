@@ -84,8 +84,8 @@ The analytic spin-wave physics that these drivers call is upstreamed into the li
 
 The underlying reusable library code lives in:
 
-- [williamratcliff-nist/tasai](https://github.com/williamratcliff-nist/tasai)
+- [usnistgov/tasai](https://github.com/usnistgov/tasai)
 
 The public paper bundle is:
 
-- [williamratcliff-nist/paper-tasai](https://github.com/williamratcliff-nist/paper-tasai)
+- [usnistgov/paper-tasai](https://github.com/usnistgov/paper-tasai)

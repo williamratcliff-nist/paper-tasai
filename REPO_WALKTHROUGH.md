@@ -16,10 +16,6 @@ The quickest companion references are:
 
 This guide goes beyond those files and follows the actual code structure.
 
-Historical note: some path references in this walkthrough still use the older
-`simulations/` naming from the working paper repo. In this public paper bundle,
-those paper-facing drivers are shipped under `paper/scripts/`.
-
 ## 1. What lives where
 
 The first thing to understand is that this repository is not a normal Python package repo. It is a paper/reproducibility repo that depends on an external `tasai` install from the public code repository.
@@ -40,7 +36,7 @@ One current-provenance rule from the updated reproducibility docs is worth keepi
 
 This split is deliberate:
 
-- the reusable library lives in the separate public code repo `williamratcliff-nist/tasai`
+- the reusable library lives in the separate public code repo `usnistgov/tasai`
 - the paper repo owns the figure scripts, manuscript-specific orchestration, checkpoint conventions, and plot generation
 
 ![Repository architecture overview](paper/figures/repo_walkthrough_architecture.png)
@@ -90,7 +86,7 @@ There are two good reading orders.
 
 Read in this order:
 
-1. `README.md` in `williamratcliff-nist/tasai`
+1. `README.md` in `usnistgov/tasai`
 2. `tasai/examples/example_parameter_determination.py`
 3. `tasai/examples/example_model_discrimination.py`
 4. `tasai/examples/example_with_motor_motion.py`
@@ -1471,7 +1467,7 @@ Picture one:
 
 Picture two:
 
-- this paper bundle is a reproducibility application that packages manuscript-oriented orchestration, archived outputs, and figure scripts around a separately versioned TAS-AI library.
+- `tasai_paper_clean` is a reproducibility application that packages one pinned library snapshot together with manuscript-oriented orchestration and figure scripts.
 
 Once you keep those pictures separate, most of the repo starts to make sense:
 

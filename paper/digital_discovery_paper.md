@@ -500,7 +500,7 @@ As autonomous capabilities expand across neutron facilities and other user instr
 
 ## Data Availability
 
-The TAS-AI library — physics backends (including the analytic `SquareLatticeAFM` and `SquareFMBilayer` models used in the closed-loop pilots), the acquisition, instrument-resolution, and MCTS modules, and the core audit interface — is available at `https://github.com/williamratcliff-nist/tasai`. The manuscript source, figure-generation scripts, closed-loop drivers (`toy_closed_loop.py`, `run_audit_ablation.py`, and associated overseer wiring), benchmark summaries, prior specifications, and paper-specific provenance artifacts are available at `https://github.com/williamratcliff-nist/paper-tasai`. Prompt artifacts used for the pilot audit layer are described in the Supplementary Information.
+The TAS-AI library — physics backends (including the analytic `SquareLatticeAFM` and `SquareFMBilayer` models used in the closed-loop pilots), the acquisition, instrument-resolution, and MCTS modules, and the core audit interface — is available at `https://github.com/usnistgov/tasai`. The manuscript source, figure-generation scripts, closed-loop drivers (`toy_closed_loop.py`, `run_audit_ablation.py`, and associated overseer wiring), benchmark summaries, prior specifications, and paper-specific provenance artifacts are available at `https://github.com/usnistgov/paper-tasai`. Prompt artifacts used for the pilot audit layer are described in the Supplementary Information.
 
 ## Author Contributions
 
